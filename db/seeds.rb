@@ -7,7 +7,6 @@ COMMENTS_PER_POST = 50
 
 Author.delete_all
 Post.delete_all
-Comment.delete_all
 
 TOTAL_AUTHORS.times do
   Author.create! :name => String.random(16)
